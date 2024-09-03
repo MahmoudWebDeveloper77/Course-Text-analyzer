@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Analyzer</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Text Analyzer</h1>
+        <textarea id="textInput" placeholder="Enter your text here..."></textarea>
+        <button onclick="analyzeText()">Analyze Text</button>
+        <div class="results">
+            <div id="charCount"></div>
+            <div id="wordCount"></div>
+            <div id="sentenceCount"></div>
+            <div id="mostFrequentWord"></div>
+            <div id="longestWord"></div>
+            <div id="readingTime"></div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
